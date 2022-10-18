@@ -1,0 +1,35 @@
+{
+    "name": "e-commerce-server",
+    "version": "1.0.0",
+    "description": "My own eCommerce website server for the eCommerce application",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Sachin-Prasad-29/e-commerce-server.git"
+    },
+    "author": "Sachin Prasad",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Sachin-Prasad-29/e-commerce-server/issues"
+    },
+    "homepage": "https://github.com/Sachin-Prasad-29/e-commerce-server#readme",
+    "dependencies": {
+        "bcrypt": "^5.0.1",
+        "body-parser": "^1.20.0",
+        "cloudinary": "^1.31.0",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.1",
+        "express": "^4.18.1",
+        "express-async-errors": "^3.1.1",
+        "express-fileupload": "^1.4.0",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^6.5.2",
+        "morgan": "^1.10.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.20"
+    }
+}
