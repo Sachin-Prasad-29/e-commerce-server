@@ -1,7 +1,7 @@
 const getAllProducts = async (req, res) => {
     res.status(200).json({ success: true, msg: 'Get all Product' });
 };
-const addProducts = async (req, res) => {
+const addProduct = async (req, res) => {
     res.status(200).json({ success: true, msg: 'Add a Product' });
 };
 const getProductById = async (req, res) => {
@@ -16,7 +16,7 @@ const deleteProductById = async (req, res) => {
 
 module.exports = {
     getAllProducts,
-    addProducts,
+    addProduct,
     editProductById,
     getProductById,
     deleteProductById,
