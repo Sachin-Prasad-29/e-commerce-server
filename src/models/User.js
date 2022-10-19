@@ -18,16 +18,16 @@ const user = {
     },
     role: {
         type: String,
-        enum: ['customer','admin'],
-        default:'customer'
+        enum: ['customer', 'admin'],
+        default: 'customer',
     },
     phone: {
         type: String,
         default: '',
     },
     profilePic: {
-        tyep: String,
-        default: '',
+        type: String,
+        default: '../assets/images/dummy-profile.jpg',
     },
     birthday: {
         type: Date,

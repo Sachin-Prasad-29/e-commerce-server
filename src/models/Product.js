@@ -15,6 +15,10 @@ const product = {
         enum: ['male', 'female', 'unisex'],
         required: [true, 'Gender must be provided'],
     },
+    images: {
+        type: String,
+        default: '../assets/images/dummy-product.png',
+    },
     description: {
         type: String,
         required: [true, 'Description is required'],
