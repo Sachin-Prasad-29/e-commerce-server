@@ -17,7 +17,7 @@ const product = {
     },
     images: {
         type: String,
-        default: '../assets/images/dummy-product.png',
+        default: 'https://i.pinimg.com/originals/2c/91/19/2c911938dd88e26dd3cb432c3ff86397.jpg',
     },
     description: {
         type: String,

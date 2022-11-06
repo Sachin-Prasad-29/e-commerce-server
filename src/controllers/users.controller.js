@@ -56,6 +56,7 @@ const login = async (req, res, next) => {
                 name: user.name,
                 email: user.email,
                 token: token,
+                role:user.role,     
                 success: true,
             };
             res.status(201).json(userDetails);

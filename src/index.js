@@ -6,9 +6,11 @@ const productsApiRouter = require('./routes/products.routes')
 const notFound = require('./middlewares/not-found')
 const errorHandlerMiddleware = require('./middlewares/error-handler');
 const connectDB = require('./db/connect')
+const cors = require('cors');
 const app = express();
 
 //standard middleware to take input from the client side
+app.use(cors({ origin: '*' }));
 app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
