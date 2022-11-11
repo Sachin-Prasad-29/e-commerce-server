@@ -2,10 +2,7 @@
     "name": "e-commerce-server",
     "version": "1.0.0",
     "description": "My own eCommerce website server for the eCommerce application",
-    "main": "src/index.js",
-    "scripts": {
-        "start": "node ."
-    },
+    "main": "index.js",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Sachin-Prasad-29/e-commerce-server.git"
