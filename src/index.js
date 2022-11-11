@@ -39,4 +39,4 @@ const start = async () =>{
 
 start();
 
-module.exprots = app;
+module.exports = app;
