@@ -2,8 +2,9 @@
     "name": "e-commerce-server",
     "version": "1.0.0",
     "description": "My own eCommerce website server for the eCommerce application",
-    "main": "index.js",
+    "main": "src/index.js",
     "scripts": {
+        "start":"node .",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "Sachin Prasad",
