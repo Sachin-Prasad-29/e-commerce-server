@@ -35,3 +35,5 @@ const start = async () =>{
 }
 
 start();
+
+module.exprots = app;
