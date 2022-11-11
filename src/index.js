@@ -15,6 +15,9 @@ app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 //routes middleware
+app.get('/', (req, res) => {
+    res.send('Express on Vercel');
+});
 app.use('/api/auth',usersApiRouter);
 app.use('/api/product',productsApiRouter);
 
